@@ -1,4 +1,4 @@
-# Hi 👋, I'm Ajay
+# Hi 👋, I'm Gujjula Ajay Kumar
 
 🎓 B.Tech Computer Science & Engineering student at **Amrita Vishwa Vidyapeetham, Coimbatore**  
 💡 Passionate about building projects, exploring new technologies, and solving real-world problems.  
