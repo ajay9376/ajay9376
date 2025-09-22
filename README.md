@@ -32,7 +32,7 @@
 ## 🔗 Let's Connect  
 
 <p align="center">
-  <a href="your-linkedin-link">
+  <a href="[your-linkedin-link](https://www.linkedin.com/in/ajay-kumar-29a6b3325/)">
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin" height="55" style="margin:10px;"/>
   </a>
   <a href="your-twitter-link">
