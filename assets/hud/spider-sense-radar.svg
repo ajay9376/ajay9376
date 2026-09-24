@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390" width="100%" height="100%">
+  <defs>
+    <linearGradient id="radarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b16" />
+      <stop offset="100%" stop-color="#04060c" />
+    </linearGradient>
+
+    <!-- Radar Sweep Gradient -->
+    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2A54" stop-opacity="0.75" />
+      <stop offset="50%" stop-color="#FF2A54" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#FF2A54" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="radarGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes radarRotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes blipFlash {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.85); }
+    }
+    @keyframes ringPulse {
+      0% { r: 20; opacity: 0.8; }
+      100% { r: 140; opacity: 0; }
+    }
+    .sweep-beam {
+      transform-origin: 190px 195px;
+      animation: radarRotate 4.5s infinite linear;
+    }
+    .blip-1 { transform-origin: 140px 145px; animation: blipFlash 2.2s infinite ease-in-out; }
+    .blip-2 { transform-origin: 245px 130px; animation: blipFlash 1.7s infinite ease-in-out 0.4s; }
+    .blip-3 { transform-origin: 220px 255px; animation: blipFlash 2.5s infinite ease-in-out 0.8s; }
+    .blip-4 { transform-origin: 130px 240px; animation: blipFlash 1.9s infinite ease-in-out 1.2s; }
+    .expanding-wave {
+      transform-origin: 190px 195px;
+      animation: ringPulse 3.5s infinite cubic-bezier(0.1, 0.7, 0.2, 1);
+    }
+  </style>
+
+  <!-- Main Background Container -->
+  <rect x="0" y="0" width="1000" height="390" rx="12" fill="url(#radarBg)" stroke="#1a2538" stroke-width="1.4" />
+
+  <!-- Corner Brackets -->
+  <path d="M 18 18 L 28 18 M 18 18 L 18 28" stroke="#FF2A54" stroke-width="2.5" fill="none" />
+  <path d="M 982 18 L 972 18 M 982 18 L 982 28" stroke="#00F2FE" stroke-width="2.5" fill="none" />
+  <path d="M 18 372 L 28 372 M 18 372 L 18 362" stroke="#00F2FE" stroke-width="2.5" fill="none" />
+  <path d="M 982 372 L 972 372 M 982 372 L 982 362" stroke="#FF2A54" stroke-width="2.5" fill="none" />
+
+  <!-- =============================================================== -->
+  <!-- LEFT: SPIDER-SENSE RADAR DISPLAY                                -->
+  <!-- =============================================================== -->
+  <g transform="translate(0, 0)">
+    <!-- Radar Base Scope -->
+    <circle cx="190" cy="195" r="145" fill="#03050a" stroke="#1e293b" stroke-width="2" />
+    <circle cx="190" cy="195" r="110" fill="none" stroke="#152136" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="190" cy="195" r="75" fill="none" stroke="#152136" stroke-width="1" />
+    <circle cx="190" cy="195" r="40" fill="none" stroke="#152136" stroke-width="1" stroke-dasharray="2,2" />
+
+    <!-- Expanding Pulse Wave -->
+    <circle cx="190" cy="195" r="20" fill="none" stroke="#FF2A54" stroke-width="1.2" class="expanding-wave" />
+
+    <!-- Crosshairs -->
+    <line x1="190" y1="45" x2="190" y2="345" stroke="#1e293b" stroke-width="1" />
+    <line x1="40" y1="195" x2="340" y2="195" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Diagonal Radar Web Webbing Lines -->
+    <line x1="84" y1="89" x2="296" y2="301" stroke="#0f192b" stroke-width="1" stroke-dasharray="2,4" />
+    <line x1="84" y1="301" x2="296" y2="89" stroke="#0f192b" stroke-width="1" stroke-dasharray="2,4" />
+
+    <!-- Radar Sweep Beam (Pie slice) -->
+    <g class="sweep-beam">
+      <path d="M 190 195 L 335 195 A 145 145 0 0 0 292 92 Z" fill="url(#sweepGrad)" />
+      <line x1="190" y1="195" x2="335" y2="195" stroke="#FF2A54" stroke-width="2" filter="url(#radarGlow)" />
+    </g>
+
+    <!-- Center Reticle Node -->
+    <circle cx="190" cy="195" r="4" fill="#FF2A54" filter="url(#radarGlow)" />
+    <circle cx="190" cy="195" r="1.5" fill="#ffffff" />
+
+    <!-- Radar Target Blips -->
+    <!-- Blip 1: TruthLens -->
+    <g class="blip-1">
+      <circle cx="140" cy="145" r="5" fill="#FF2A54" filter="url(#radarGlow)" />
+      <circle cx="140" cy="145" r="2" fill="#ffffff" />
+      <text x="148" y="142" font-family="'SF Mono', 'Fira Code', monospace" font-size="8.5" fill="#FF2A54" font-weight="700">TRUTHLENS [AI]</text>
+    </g>
+
+    <!-- Blip 2: NetSentinel -->
+    <g class="blip-2">
+      <circle cx="245" cy="130" r="5" fill="#00F2FE" filter="url(#radarGlow)" />
+      <circle cx="245" cy="130" r="2" fill="#ffffff" />
+      <text x="253" y="128" font-family="'SF Mono', 'Fira Code', monospace" font-size="8.5" fill="#00F2FE" font-weight="700">NETSENTINEL [SEC]</text>
+    </g>
+
+    <!-- Blip 3: Map Puzzle DAA -->
+    <g class="blip-3">
+      <circle cx="220" cy="255" r="5" fill="#FF2A54" filter="url(#radarGlow)" />
+      <circle cx="220" cy="255" r="2" fill="#ffffff" />
+      <text x="228" y="258" font-family="'SF Mono', 'Fira Code', monospace" font-size="8.5" fill="#FF2A54" font-weight="700">MAP_PUZZLE [DAA]</text>
+    </g>
+
+    <!-- Blip 4: ML-Capstone -->
+    <g class="blip-4">
+      <circle cx="130" cy="240" r="5" fill="#00ff88" filter="url(#radarGlow)" />
+      <circle cx="130" cy="240" r="2" fill="#ffffff" />
+      <text x="75" y="252" font-family="'SF Mono', 'Fira Code', monospace" font-size="8.5" fill="#00ff88" font-weight="700">ML-SUITE</text>
+    </g>
+
+    <!-- Radar Footer Telemetry -->
+    <text x="190" y="360" text-anchor="middle" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" fill="#64748b" letter-spacing="1px">
+      RADAR RANGE: 250KM &bull; FREQ: <tspan fill="#FF2A54">142.85 MHz</tspan>
+    </text>
+  </g>
+
+  <!-- Vertical Divider with Web Node -->
+  <line x1="365" y1="30" x2="365" y2="360" stroke="#1a2538" stroke-width="1.5" />
+  <circle cx="365" cy="195" r="4" fill="#00F2FE" />
+  <circle cx="365" cy="195" r="9" stroke="#00F2FE" stroke-width="0.8" fill="none" opacity="0.6" />
+
+  <!-- =============================================================== -->
+  <!-- RIGHT: 4 DIAGNOSTIC TELEMETRY PANELS                            -->
+  <!-- =============================================================== -->
+  
+  <!-- Panel 1: CURRENTLY BUILDING -->
+  <g transform="translate(390, 30)">
+    <rect width="575" height="74" rx="6" fill="#0c1220" stroke="#1e293b" stroke-width="1.2" />
+    <rect width="4" height="74" rx="2" fill="#FF2A54" />
+    <!-- Tag -->
+    <text x="18" y="22" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#FF2A54" letter-spacing="1.5px">
+      [01] CURRENTLY BUILDING // IN THE LAB
+    </text>
+    <!-- Title -->
+    <text x="18" y="44" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" font-weight="700" fill="#f8fafc">
+      TruthLens-AI &amp; NetSentinel Telemetry Engines
+    </text>
+    <!-- Description -->
+    <text x="18" y="62" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" fill="#94a3b8">
+      Engineering real-time 4-signal deepfake video detection &amp; live anomaly classification pipelines.
+    </text>
+  </g>
+
+  <!-- Panel 2: CURRENTLY LEARNING -->
+  <g transform="translate(390, 116)">
+    <rect width="575" height="74" rx="6" fill="#0c1220" stroke="#1e293b" stroke-width="1.2" />
+    <rect width="4" height="74" rx="2" fill="#00F2FE" />
+    <!-- Tag -->
+    <text x="18" y="22" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#00F2FE" letter-spacing="1.5px">
+      [02] CURRENTLY LEARNING // NEURAL &amp; SYSTEMS MASTERY
+    </text>
+    <!-- Title -->
+    <text x="18" y="44" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" font-weight="700" fill="#f8fafc">
+      Advanced Deep Learning, Distributed Architecture &amp; C Systems
+    </text>
+    <!-- Description -->
+    <text x="18" y="62" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" fill="#94a3b8">
+      Diving into model quantization, low-level concurrency, OS internals, and high-frequency data structures.
+    </text>
+  </g>
+
+  <!-- Panel 3: CURRENT RESEARCH INTERESTS -->
+  <g transform="translate(390, 202)">
+    <rect width="575" height="74" rx="6" fill="#0c1220" stroke="#1e293b" stroke-width="1.2" />
+    <rect width="4" height="74" rx="2" fill="#FF2A54" />
+    <!-- Tag -->
+    <text x="18" y="22" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#FF2A54" letter-spacing="1.5px">
+      [03] RESEARCH INTERESTS // RADAR HORIZON
+    </text>
+    <!-- Title -->
+    <text x="18" y="44" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" font-weight="700" fill="#f8fafc">
+      AI Forensics &bull; Intelligent Cyber Defense &bull; Graph Theory (DAA)
+    </text>
+    <!-- Description -->
+    <text x="18" y="62" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" fill="#94a3b8">
+      Investigating synthetic media artifact boundary proofs, heuristic constraint solvers, and zero-day threat radar.
+    </text>
+  </g>
+
+  <!-- Panel 4: NEXT MISSION -->
+  <g transform="translate(390, 288)">
+    <rect width="575" height="74" rx="6" fill="#0c1220" stroke="#1e293b" stroke-width="1.2" />
+    <rect width="4" height="74" rx="2" fill="#00ff88" />
+    <!-- Tag -->
+    <text x="18" y="22" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#00ff88" letter-spacing="1.5px">
+      [04] NEXT MISSION TARGET // OBJECTIVE
+    </text>
+    <!-- Title -->
+    <text x="18" y="44" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" font-weight="700" fill="#f8fafc">
+      Autonomous Multi-Agent Threat Intelligence Platform
+    </text>
+    <!-- Description -->
+    <text x="18" y="62" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" fill="#94a3b8">
+      Building an automated, resilient cyber defense network orchestrating AI agents for incident diagnosis.
+    </text>
+  </g>
+</svg>

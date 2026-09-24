@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 68" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad_05_THE_WEB_TELEMETRY" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2A54" stop-opacity="0" />
+      <stop offset="35%" stop-color="#FF2A54" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="1" />
+      <stop offset="65%" stop-color="#FF2A54" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#FF2A54" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes tension_05_THE_WEB_TELEMETRY {
+      0%, 100% { opacity: 0.5; stroke-width: 1.2px; }
+      50% { opacity: 0.95; stroke-width: 2px; }
+    }
+    .tensile-line { animation: tension_05_THE_WEB_TELEMETRY 4s infinite ease-in-out; }
+  </style>
+
+  <!-- Left / Right Hanging Web Filaments -->
+  <path d="M 80 0 C 220 38, 380 48, 500 40" stroke="#FF2A54" stroke-width="1" fill="none" opacity="0.35" />
+  <path d="M 920 0 C 780 38, 620 48, 500 40" stroke="#00F2FE" stroke-width="1" fill="none" opacity="0.35" />
+
+  <!-- Diagonal Cords -->
+  <line x1="250" y1="0" x2="500" y2="35" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3" />
+  <line x1="750" y1="0" x2="500" y2="35" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3" />
+
+  <!-- Center Tension Web Line -->
+  <line x1="500" y1="0" x2="500" y2="68" stroke="url(#grad_05_THE_WEB_TELEMETRY)" stroke-width="1.6" class="tensile-line" />
+
+  <!-- Central Anchor Nodes -->
+  <circle cx="500" cy="35" r="4.5" fill="#FF2A54" />
+  <circle cx="500" cy="35" r="9" stroke="#00F2FE" stroke-width="1" fill="none" opacity="0.6" />
+
+  <circle cx="380" cy="30" r="2.5" fill="#00F2FE" opacity="0.5" />
+  <circle cx="620" cy="30" r="2.5" fill="#FF2A54" opacity="0.5" />
+
+  <!-- Node Pill Indicator -->
+  <rect x="410" y="48" width="180" height="15" rx="3" fill="#070b14" stroke="#1a2538" stroke-width="1" />
+  <text x="500" y="59" text-anchor="middle" font-family="'SF Mono', 'Fira Code', monospace" font-size="8" fill="#94a3b8" letter-spacing="1.5px">
+    NODE // 05_THE_WEB_TELEMETRY
+  </text>
+</svg>

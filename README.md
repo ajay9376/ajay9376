@@ -1,203 +1,326 @@
 <!-- ================================================================= -->
-<!-- SPIDER-LAB HEADER HERO                                            -->
+<!-- SPIDER-LAB // SYSTEM INTERFACE                                    -->
 <!-- ================================================================= -->
 
 <div align="center">
 
-  <img src="./assets/spiderman-banner.jpg" width="100%" alt="Gujjula Ajay Kumar - Spider-Man Theme Banner" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.6);" />
+  <!-- MASTER HUD HERO -->
+  <img src="./assets/hud/hero-hud.svg" width="100%" alt="Spider-Lab HUD // Gujjula Ajay Kumar" />
 
   <br><br>
 
-  <!-- ANIMATED TYPING SVG -->
+  <!-- ANIMATED SYSTEM TELEMETRY TYPING -->
   <a href="https://github.com/ajay9376">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=1000&color=E63946&center=true&vCenter=true&repeat=true&width=750&height=45&lines=%F0%9F%95%B8%EF%B8%8F+Friendly+Neighborhood+Software+Engineer;%F0%9F%9B%A1%EF%B8%8F+AI-Driven+Deepfake+Detection+%26+Network+Security;%E2%9A%A1+Spider-Sense+Calibrated+for+High-Throughput+Systems;%F0%9F%95%B7%EF%B8%8F+Weaving+Data+Structures%2C+Algorithms+%26+Neural+Nets;%F0%9F%A5%87+%22With+great+power+comes+great+clean+code.%22" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=820&height=45&lines=%F0%9F%95%B8%EF%B8%8F+SPIDER-LAB+%2F%2F+SYSTEM+ONLINE;%E2%9A%A1+SPIDER-SENSE+CALIBRATED+FOR+ANOMALIES;%F0%9F%9B%A1%EF%B8%8F+4-SIGNAL+DEEPFAKE+FORENSICS+%26+NETWORK+RADAR;%F0%9F%95%B7%EF%B8%8F+WEAVING+GRAPH+ALGORITHMS%2C+DATA+STRUCTURES+%26+AI;%F0%9F%A5%87+%22With+great+power+comes+great+clean+code.%22" alt="Typing SVG" />
   </a>
 
   <br>
 
-  <!-- QUICK CONNECT & STATUS BADGES -->
+  <!-- SYSTEM STATUS BADGE BAR -->
   <p align="center">
     <a href="https://linkedin.com/in/gujjula-ajay-kumar-29a6b3325/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Ajay_Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LINKEDIN-Ajay_Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=070b14" alt="LinkedIn" />
     </a>
     &nbsp;
     <a href="mailto:gujjulaajay9376@gmail.com">
-      <img src="https://img.shields.io/badge/Email-gujjulaajay9376%40gmail.com-E63946?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email" />
+      <img src="https://img.shields.io/badge/ENCRYPTED_COMMS-Contact_Ajay-FF2A54?style=for-the-badge&logo=gmail&logoColor=white&labelColor=070b14" alt="Email" />
     </a>
     &nbsp;
     <a href="https://github.com/ajay9376">
-      <img src="https://img.shields.io/badge/GitHub-ajay9376-00F2FE?style=for-the-badge&logo=github&logoColor=black&labelColor=0d1117" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GITHUB_NODE-ajay9376-00F2FE?style=for-the-badge&logo=github&logoColor=black&labelColor=070b14" alt="GitHub" />
     </a>
     &nbsp;
-    <img src="https://komarev.com/ghpvc/?username=ajay9376&color=e63946&style=for-the-badge&label=Spider-Sense+Radar&abbreviated=true" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=ajay9376&color=ff2a54&style=for-the-badge&label=Spider-Sense+Hits&abbreviated=true" alt="Profile Views" />
     &nbsp;
-    <img src="https://img.shields.io/badge/Spider--Suit-Online-00ff88?style=for-the-badge&labelColor=0d1117" alt="Suit Online" />
+    <img src="https://img.shields.io/badge/SUIT_SYSTEM-ONLINE-00ff88?style=for-the-badge&labelColor=070b14" alt="Suit Online" />
   </p>
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/web/web-divider-origin.svg" width="100%" alt="Web Connector" />
+</p>
 
-## 🕸️ Telemetry // The Spider-Lab (About Me)
+<!-- ================================================================= -->
+<!-- 01: ORIGIN // THE PETER PARKER PROTOCOL                           -->
+<!-- ================================================================= -->
+
+<img src="./assets/hud/header-origin.svg" width="100%" alt="01 Origin Header" />
+
+<br>
+
+<table width="100%">
+<tr>
+<td bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 22px 26px;">
+
+### 🕷️ Origin Dossier // Developer Identity
+
+I am a Computer Science &amp; Engineering student at **Amrita Vishwa Vidyapeetham** (2nd Year), operating at the intersection of **Artificial Intelligence, Deepfake Forensics, Cybersecurity, and High-Performance Data Structures**.
+
+Like Peter Parker in his lab, I believe engineering begins by peering beneath high-level abstractions — understanding how memory allocation, mathematical optimization, packet flows, and neural layers interact under pressure. My focus is engineering resilient, mathematically sound systems that detect anomalies and solve complex real-world challenges.
 
 ```python
-# 🕷️ SPIDER-LAB COCKPIT // PROTOCOL: PETER_PARKER_V2
-class PeterParkerEngineer:
+# 🕸️ SUIT HUD // PROTOCOL: PETER_PARKER_V2
+class PeterParkerDeveloper:
     def __init__(self):
-        self.name = "Gujjula Ajay Kumar"
-        self.alias = "Your Friendly Neighborhood AI Developer 🕷️"
-        self.university = "Amrita Vishwa Vidyapeetham 🏛️"
-        self.degree = "B.Tech Computer Science & Engineering (2nd Year)"
-        self.spider_sense = "ACTIVE // Detecting anomalies, deepfakes & performance bottlenecks"
+        self.codename = "Gujjula Ajay Kumar"
+        self.callsign = "Your Friendly Neighborhood Developer 🕷️"
+        self.base_station = "Amrita Vishwa Vidyapeetham 🏛️"
+        self.academic_track = "B.Tech Computer Science & Engineering (Class of 2028)"
+        self.spider_sense = "ACTIVE // Detecting anomalies, bad logic & synthetic media"
 
-    def core_radar(self):
+    def core_subsystems(self):
         return {
             "ai_forensics": ["Deepfake Detection", "Multi-Signal Biometrics", "Computer Vision"],
-            "cyber_defense": ["Real-Time Traffic Inspection", "Threat Telemetry", "Anomaly Detection"],
-            "algorithmic_craft": ["Graph Theory", "Constraint Optimization", "Greedy Backtracking"],
-            "full_stack": ["Python", "Java", "C", "Node.js", "MySQL", "Neo4j"]
+            "cyber_radar": ["Traffic Telemetry", "Anomaly Detection", "Threat Classification"],
+            "algorithmic_craft": ["Graph Theory", "Constraint Satisfaction", "DAA Optimization"],
+            "systems_stack": ["Python", "C", "Java", "Node.js", "MySQL", "Neo4j"]
         }
 
-    def current_mission(self):
-        return [
-            "🚀 Elevating TruthLens-AI to real-time deepfake video streams",
-            "🛡️ Hardening NetSentinel heuristic anomaly classification",
-            "🧩 Solving advanced algorithmic challenges on LeetCode & Codeforces",
-            "☕ Debugging systems late night with Spider-Sense & coffee"
-        ]
-
-    def motto(self):
+    def prime_directive(self):
         return "With great compute power comes great architectural responsibility."
 ```
 
 ```bash
 ┌──(ajay㉿spider-suit-os)-[~/radar]
-└─$ spider-cli telemetry --status
-[SYSTEM]       KAREN Protocol v4.2 INITIALIZED
-[ANOMALY_DET]  TruthLens-AI: 4-signal synthetic media detector ONLINE
-[FIREWALL]     NetSentinel: Packet-level heuristic radar ACTIVE
-[OPTIMIZER]    Map Puzzle DAA: Chromatic graph coloring tuned to minimum bounds
-[OBJECTIVE]    Building high-impact AI systems & mastering core algorithms
+└─$ spider-cli telemetry --verify
+[SYSTEM]       SPIDER-LAB OS v4.2 INITIALIZED
+[SPIDER-SENSE] Calibrated to anomalous telemetry & deepfake vectors
+[FIREWALL]     NetSentinel packet inspector ACTIVE
+[CSP_SOLVER]   Map Puzzle chromatic graph engine ONLINE
+[OBJECTIVE]    Architecting resilient AI systems & mastering core algorithms
 ```
-
----
-
-## 🕷️ The Spider-Arsenal // Featured Projects
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top" bgcolor="#0d1117" style="border: 1px solid #e11d48; border-radius: 10px; padding: 20px;">
-
-### 👁️ [TruthLens-AI](https://github.com/ajay9376/TruthLens-AI)
-> **Advanced Deepfake & Synthetic Media Forensics Using 4-Signal AI Analysis**
-
-An intelligent computer vision and AI forensics platform engineered to spot deepfakes that evade standard inspection. Cross-examines 4 distinct visual and biometric signal vectors: facial texture warping, frequency spectrum inconsistencies, eye-blink dynamics, and residual noise patterns.
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&theme=dark" height="36" alt="TruthLens Stack" />
-</p>
-
-- **Key Highlights:** Multi-signal forensic analysis, high-accuracy synthetic artifact detection, real-time visual analysis interface.
-- **Technologies:** `Python` &bull; `OpenCV` &bull; `Computer Vision` &bull; `Deep Learning` &bull; `Streamlit`
-
-<p align="right"><a href="https://github.com/ajay9376/TruthLens-AI"><b>🕷️ Explore TruthLens-AI &rarr;</b></a></p>
-
-</td>
-
-<td width="50%" valign="top" bgcolor="#0d1117" style="border: 1px solid #00f2fe; border-radius: 10px; padding: 20px;">
-
-### 🛡️ [NetSentinel](https://github.com/ajay9376/NetSentinel)
-> **AI-Powered Real-Time Network Security & Anomaly Radar**
-
-An intelligent network guardian acting as an early-warning radar. Captures live network traffic telemetry, runs real-time anomaly detection, performs threat severity classification, and generates actionable security intelligence before breaches escalate.
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,linux,bash,scikitlearn&theme=dark" height="36" alt="NetSentinel Stack" />
-</p>
-
-- **Key Highlights:** Real-time packet parsing, heuristic risk indexing, automated malicious traffic alerts, cyber radar telemetry.
-- **Technologies:** `Python` &bull; `Scapy` &bull; `Network Telemetry` &bull; `Machine Learning` &bull; `Jupyter`
-
-<p align="right"><a href="https://github.com/ajay9376/NetSentinel"><b>🛡️ Explore NetSentinel &rarr;</b></a></p>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top" bgcolor="#0d1117" style="border: 1px solid #00f2fe; border-radius: 10px; padding: 20px;">
-
-### 🗺️ [Map_Puzzle_DAA](https://github.com/ajay9376/Map_Puzzle_DAA)
-> **Algorithmic Graph Coloring & Minimum-Chromatic Optimization Engine**
-
-A design and analysis of algorithms (DAA) project addressing geographic map partitioning and Constraint Satisfaction Problems (CSPs). Leverages backtracking with forward-checking and greedy heuristics (Welsh-Powell & DSatur) to compute minimal chromatic coloring.
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,git&theme=dark" height="36" alt="Map Puzzle Stack" />
-</p>
-
-- **Key Highlights:** Constraint satisfaction modeling, state-space tree pruning, minimum chromatic bounds calculation.
-- **Technologies:** `Python` &bull; `Graph Theory` &bull; `Backtracking` &bull; `DAA` &bull; `Greedy Heuristics`
-
-<p align="right"><a href="https://github.com/ajay9376/Map_Puzzle_DAA"><b>🧩 Explore Map Puzzle &rarr;</b></a></p>
-
-</td>
-
-<td width="50%" valign="top" bgcolor="#0d1117" style="border: 1px solid #e11d48; border-radius: 10px; padding: 20px;">
-
-### 🧠 [ML-Capstone](https://github.com/ajay9376/ML-Capstone)
-> **Predictive Intelligence, Classification & Clustering Analytics Suite**
-
-End-to-end machine learning exploration framework covering both supervised and unsupervised learning paradigms. Features data cleaning, statistical hypothesis testing, PCA dimensionality reduction, and comparative model benchmarking.
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,scikitlearn,pandas,numpy&theme=dark" height="36" alt="ML Capstone Stack" />
-</p>
-
-- **Key Highlights:** Feature engineering pipelines, hyperparameter tuning, regression/classification/clustering model suites.
-- **Technologies:** `Scikit-Learn` &bull; `Pandas` &bull; `NumPy` &bull; `Seaborn` &bull; `Matplotlib`
-
-<p align="right"><a href="https://github.com/ajay9376/ML-Capstone"><b>⚡ Explore ML-Capstone &rarr;</b></a></p>
 
 </td>
 </tr>
 </table>
 
----
+<p align="center">
+  <img src="./assets/web/web-divider-sense.svg" width="100%" alt="Web Connector" />
+</p>
 
-## ⚡ Web-Shooter Tech Arsenal // Skills & Capabilities
+<!-- ================================================================= -->
+<!-- 02: SPIDER-SENSE // THREAT & LEARNING RADAR                       -->
+<!-- ================================================================= -->
+
+<img src="./assets/hud/header-sense.svg" width="100%" alt="02 Spider-Sense Header" />
+
+<br>
+
+<div align="center">
+  <img src="./assets/hud/spider-sense-radar.svg" width="100%" alt="Spider-Sense HUD Console" />
+</div>
+
+<p align="center">
+  <img src="./assets/web/web-divider-arsenal.svg" width="100%" alt="Web Connector" />
+</p>
+
+<!-- ================================================================= -->
+<!-- 03: WEB-SHOOTER ARSENAL // TECHNICAL WEAPONRY                    -->
+<!-- ================================================================= -->
+
+<img src="./assets/hud/header-arsenal.svg" width="100%" alt="03 Web-Shooter Arsenal Header" />
+
+<br>
+
+<div align="center">
+  <img src="./assets/hud/web-shooter-arsenal.svg" width="100%" alt="Web-Shooter HUD Arsenal" />
+</div>
+
+<br>
+
+<!-- INTERACTIVE SKILL ICONS MATRIX -->
+<table width="100%">
+<tr>
+<td bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 18px 24px;">
 
 <div align="center">
 
-### 🕸️ Core Programming Languages
-<p align="center">
+<p>
+  <b>🕸️ Core Languages</b><br>
   <img src="https://skillicons.dev/icons?i=python,java,c,js,bash,haskell&theme=dark" alt="Languages" />
 </p>
 
-### 🧠 AI, Machine Learning & Computer Vision
-<p align="center">
+<p>
+  <b>🧠 AI, Machine Learning &amp; Computer Vision</b><br>
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn,opencv,pandas,numpy&theme=dark" alt="AI & ML" />
 </p>
 
-### 🌐 Web Engineering & APIs
-<p align="center">
+<p>
+  <b>🌐 Web Engineering &amp; APIs</b><br>
   <img src="https://skillicons.dev/icons?i=nodejs,express,html,css,fastapi,postman&theme=dark" alt="Web & APIs" />
 </p>
 
-### 🗄️ Databases & Knowledge Graphs
-<p align="center">
+<p>
+  <b>🗄️ Relational &amp; Graph Databases</b><br>
   <img src="https://skillicons.dev/icons?i=mysql,mongodb,neo4j&theme=dark" alt="Databases" />
 </p>
 
-### 🛠️ Developer Tools & Environment
-<p align="center">
+<p>
+  <b>🛠️ Developer Tools &amp; Operating Systems</b><br>
   <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,canva&theme=dark" alt="Tools" />
 </p>
 
 </div>
 
----
+</td>
+</tr>
+</table>
 
-## 📊 Spider-Sense Analytics & Contribution Radar
+<p align="center">
+  <img src="./assets/web/web-divider-missions.svg" width="100%" alt="Web Connector" />
+</p>
+
+<!-- ================================================================= -->
+<!-- 04: ACTIVE MISSIONS // THE SPIDER-LAB                             -->
+<!-- ================================================================= -->
+
+<img src="./assets/hud/header-missions.svg" width="100%" alt="04 Active Missions Header" />
+
+<br>
+
+<!-- MISSION GRID -->
+<table width="100%">
+<tr>
+<!-- MISSION 001: TRUTHLENS-AI -->
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #FF2A54; border-radius: 10px; padding: 16px;">
+
+<img src="./assets/missions/mission-truthlens.svg" width="100%" alt="Mission 001 TruthLens" />
+
+<br><br>
+
+> **Tactical Objective:** Detect synthetic media &amp; hyper-realistic deepfakes that deceive the human eye.
+
+Cross-examines 4 distinct visual &amp; biometric signal vectors:
+- **Facial Texture Warping:** Analyzes boundary distortions &amp; GAN blending artifacts.
+- **Frequency Spectrum Inconsistencies:** Detects anomalous high-frequency pixel harmonics.
+- **Eye-Blink Dynamics:** Evaluates biological cadence &amp; involuntary eyelid motion.
+- **Residual Noise Patterns:** Spots synthetic PRNU fingerprint discrepancies.
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&theme=dark" height="34" alt="TruthLens Stack" />
+</p>
+
+- **Status:** `ACTIVE // REAL-TIME INFERENCE`
+- **Architecture:** `Python` &bull; `OpenCV` &bull; `Deep Learning` &bull; `Streamlit` &bull; `Computer Vision`
+
+<p align="right"><a href="https://github.com/ajay9376/TruthLens-AI"><b>🕷️ Access Mission Files &rarr;</b></a></p>
+
+</td>
+
+<!-- MISSION 002: NETSENTINEL -->
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #00F2FE; border-radius: 10px; padding: 16px;">
+
+<img src="./assets/missions/mission-netsentinel.svg" width="100%" alt="Mission 002 NetSentinel" />
+
+<br><br>
+
+> **Tactical Objective:** Autonomous network radar intercepting malicious traffic at the perimeter.
+
+An intelligent cybersecurity watchdog providing real-time telemetry:
+- **Packet Telemetry:** Live traffic capture and protocol dissection via Scapy.
+- **Anomaly Radar:** Statistical baseline deviation &amp; zero-day signature scoring.
+- **Threat Classification:** Supervised ML categorization of intrusion vectors.
+- **Automated Alerts:** High-priority mitigation dispatching for network defenders.
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,linux,bash,scikitlearn&theme=dark" height="34" alt="NetSentinel Stack" />
+</p>
+
+- **Status:** `ARMED // PERIMETER GUARD`
+- **Architecture:** `Python` &bull; `Scapy` &bull; `Scikit-Learn` &bull; `Network Telemetry` &bull; `Jupyter`
+
+<p align="right"><a href="https://github.com/ajay9376/NetSentinel"><b>🛡️ Access Mission Files &rarr;</b></a></p>
+
+</td>
+</tr>
+
+<tr>
+<!-- MISSION 003: MAP PUZZLE DAA -->
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #00F2FE; border-radius: 10px; padding: 16px;">
+
+<img src="./assets/missions/mission-mappuzzle.svg" width="100%" alt="Mission 003 Map Puzzle" />
+
+<br><br>
+
+> **Tactical Objective:** Solve complex geographic partitioning and Constraint Satisfaction Problems (CSPs).
+
+An algorithmic graph coloring engine designed for minimum-chromatic partitioning:
+- **Constraint Satisfaction (CSP):** Formulates state boundaries as graph adjacency matrices.
+- **Backtracking with Forward Checking:** Prunes non-viable branches from state-space trees.
+- **Greedy Heuristic Search:** Implements Welsh-Powell degree ordering &amp; DSatur saturation degree.
+- **Complexity Bound Analysis:** Evaluates chromatic numbers under varying graph densities.
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,git&theme=dark" height="34" alt="Map Puzzle Stack" />
+</p>
+
+- **Status:** `SOLVED // CHROMATIC OPTIMIZATION`
+- **Architecture:** `Python` &bull; `Graph Theory` &bull; `Backtracking` &bull; `DAA` &bull; `Greedy Heuristics`
+
+<p align="right"><a href="https://github.com/ajay9376/Map_Puzzle_DAA"><b>🧩 Access Mission Files &rarr;</b></a></p>
+
+</td>
+
+<!-- MISSION 004: ML-CAPSTONE -->
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #FF2A54; border-radius: 10px; padding: 16px;">
+
+<img src="./assets/missions/mission-mlcapstone.svg" width="100%" alt="Mission 004 ML Capstone" />
+
+<br><br>
+
+> **Tactical Objective:** End-to-end predictive modeling across supervised &amp; unsupervised paradigms.
+
+Comprehensive machine learning experimentation framework:
+- **Data Engineering:** Automated missing value imputation, outlier detection, scaling.
+- **Dimensionality Reduction:** Principal Component Analysis (PCA) variance preservation.
+- **Model Benchmarking:** Cross-validated regression, classification, and clustering comparison.
+- **Diagnostic Metrics:** ROC-AUC curves, confusion matrices, and silhouette coefficient tuning.
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,scikitlearn,pandas,numpy&theme=dark" height="34" alt="ML Capstone Stack" />
+</p>
+
+- **Status:** `DEPLOYED // RESEARCH PIPELINE`
+- **Architecture:** `Scikit-Learn` &bull; `Pandas` &bull; `NumPy` &bull; `Seaborn` &bull; `Matplotlib`
+
+<p align="right"><a href="https://github.com/ajay9376/ML-Capstone"><b>⚡ Access Mission Files &rarr;</b></a></p>
+
+</td>
+</tr>
+
+<tr>
+<!-- MISSION 005: CGPA CALCULATOR -->
+<td colspan="2" valign="top" bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 16px;">
+
+<img src="./assets/missions/mission-cgpa.svg" width="100%" alt="Mission 005 CGPA Calculator" />
+
+<br><br>
+
+> **Tactical Objective:** Client-side academic performance metric evaluator for engineering cohorts.
+
+An interactive browser utility allowing university students to input course credits, letter grades, and semester weights to compute cumulative grade point averages (CGPA) with zero latency.
+
+- **Status:** `COMPLETED // SYSTEM UTILITY`
+- **Architecture:** `HTML5` &bull; `CSS3` &bull; `JavaScript` &bull; `Responsive DOM Manipulation`
+
+<p align="right"><a href="https://github.com/ajay9376/cgpa_calculator"><b>🎓 Access Utility &rarr;</b></a></p>
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="./assets/web/web-divider-telemetry.svg" width="100%" alt="Web Connector" />
+</p>
+
+<!-- ================================================================= -->
+<!-- 05: THE WEB // GITHUB TELEMETRY & CONTRIBUTION RADAR              -->
+<!-- ================================================================= -->
+
+<img src="./assets/hud/header-telemetry.svg" width="100%" alt="05 Telemetry Header" />
+
+<br>
 
 <div align="center">
 
@@ -225,7 +348,7 @@ End-to-end machine learning exploration framework covering both supervised and u
         <br>
         <a href="https://github.com/ajay9376">
           <img
-            src="https://streak-stats.demolab.com/?user=ajay9376&theme=radical&hide_border=true&background=141321&ring=fe428e&fire=fe428e&currStreakLabel=a9fef7"
+            src="https://streak-stats.demolab.com/?user=ajay9376&theme=radical&hide_border=true&background=070b14&ring=FF2A54&fire=FF2A54&currStreakLabel=00F2FE"
             alt="GitHub Contribution Streak"
           />
         </a>
@@ -235,82 +358,129 @@ End-to-end machine learning exploration framework covering both supervised and u
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/web/web-divider-missions.svg" width="100%" alt="Web Connector" />
+</p>
 
-## 🎓 Spider-Academy // Education
+<!-- ================================================================= -->
+<!-- 06: SPIDER-ACADEMY // FORMAL EDUCATION                            -->
+<!-- ================================================================= -->
+
+<img src="./assets/hud/header-academy.svg" width="100%" alt="06 Spider-Academy Header" />
+
+<br>
 
 <table width="100%">
 <tr>
-<td bgcolor="#0d1117" style="border: 1px solid #1e293b; border-radius: 10px; padding: 20px 24px;">
+<td bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 22px 28px;">
 
 ### 🏛️ Amrita Vishwa Vidyapeetham
-**Bachelor of Technology (B.Tech) — Computer Science & Engineering (2024 – 2028)**
-- **Core Coursework:** Data Structures & Algorithms, Object-Oriented Programming (Java), Operating Systems, Database Management Systems, Computer Networks, Design & Analysis of Algorithms, Artificial Intelligence.
-- **Academic Focus:** Artificial Intelligence Forensics, Anomaly Detection & Network Security, Graph Theory & Heuristic Algorithms.
+**Bachelor of Technology (B.Tech) — Computer Science &amp; Engineering (2024 – 2028)**
+
+- **Core Academic Rigor:** Data Structures &amp; Algorithms, Object-Oriented Programming (Java), Operating Systems &amp; Concurrency, Database Management Systems (SQL &amp; Neo4j), Computer Networks, Design &amp; Analysis of Algorithms (DAA), Artificial Intelligence.
+- **Engineering Trajectory:** Deepening mastery in computer vision forensics, anomaly detection architectures, low-level concurrency, and graph constraint optimization.
 
 </td>
 </tr>
 </table>
 
----
+<p align="center">
+  <img src="./assets/web/web-divider-sense.svg" width="100%" alt="Web Connector" />
+</p>
 
-## 💡 The Spider-Man Developer Creed
+<!-- ================================================================= -->
+<!-- 07: DEVELOPER CREED // SYSTEM DIRECTIVES                          -->
+<!-- ================================================================= -->
+
+<img src="./assets/hud/header-creed.svg" width="100%" alt="07 Developer Creed Header" />
+
+<br>
 
 <table width="100%">
 <tr>
-<td bgcolor="#090d16" style="border: 1px solid #e11d48; border-radius: 10px; padding: 20px 24px;">
+<td bgcolor="#050811" style="border: 1px solid #FF2A54; border-radius: 10px; padding: 20px 24px;">
 
 ```bash
-┌──(ajay㉿developer-creed)-[~/spider-verse]
-└─$ cat creed.md
+┌──(ajay㉿spider-lab-core)-[~/directives]
+└─$ cat creed.sh
 
-[01] WITH GREAT COMPUTE COMES GREAT RESPONSIBILITY
-     Software impacts real human lives. Write clean, reliable, tested code that never fails silently.
+[DIRECTIVE 01] WITH GREAT COMPUTE COMES GREAT RESPONSIBILITY
+               Software controls real-world infrastructure. Write deterministic, tested,
+               and verified code that fails safely and recovers gracefully.
 
-[02] CULTIVATE YOUR SPIDER-SENSE
-     Anticipate edge cases, concurrency deadlocks, and attack vectors before they surface in production.
+[DIRECTIVE 02] DEVELOP INSTINCTIVE SPIDER-SENSE
+               Detect edge cases, race conditions, memory leaks, and malicious packet
+               payloads before they cascade into system failures.
 
-[03] WEAVE UNBREAKABLE WEBS
-     Architect modular, fault-tolerant systems designed to withstand failures and recover gracefully.
+[DIRECTIVE 03] WEAVE INTERCONNECTED RESILIENCE
+               Build modular architectures where individual nodes can degrade without
+               collapsing the greater network. Fault-tolerance by design.
 
-[04] LEAP INTO THE UNKNOWN
-     Mastering technology is a continuous leap of faith. Learn aggressively, build fearlessly, ship daily.
+[DIRECTIVE 04] RELENTLESS EXPLORATION
+               Never stop leaping. Push beyond standard abstractions to master the
+               mechanics of neural networks, memory management, and network protocols.
 ```
 
 </td>
 </tr>
 </table>
 
----
+<p align="center">
+  <img src="./assets/web/web-divider-portal.svg" width="100%" alt="Web Connector" />
+</p>
 
-## 📫 Reach The Spider-Lab // Connect With Me
+<!-- ================================================================= -->
+<!-- 08: ENTER THE SPIDER-VERSE // DIMENSIONAL GATEWAY                 -->
+<!-- ================================================================= -->
+
+<img src="./assets/hud/header-portal.svg" width="100%" alt="08 Spider-Verse Header" />
+
+<br>
+
+<div align="center">
+  <a href="https://github.com/ajay9376">
+    <img src="./assets/portal/spider-verse-gateway.svg" width="100%" alt="Enter The Spider-Verse Gateway" />
+  </a>
+</div>
 
 <p align="center">
-  Interested in collaborating on AI research, deepfake forensics, cybersecurity tooling, or open-source software?
+  <img src="./assets/web/web-divider-origin.svg" width="100%" alt="Web Connector" />
+</p>
+
+<!-- ================================================================= -->
+<!-- 09: TRANSMISSION // SECURE CHANNELS                               -->
+<!-- ================================================================= -->
+
+<img src="./assets/hud/header-transmission.svg" width="100%" alt="09 Transmission Header" />
+
+<br>
+
+<p align="center">
+  Open to collaborative AI research, deepfake forensics, systems engineering, and open-source innovations.
   <br>
-  <b>My web-shooters are always ready — let's build something remarkable.</b>
+  <b>Spider-Lab frequencies are open. Send an encrypted ping:</b>
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/gujjula-ajay-kumar-29a6b3325/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Ajay%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LINKEDIN-Ajay%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=070b14" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/ajay9376" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-ajay9376-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GITHUB-ajay9376-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=070b14" alt="GitHub" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:gujjulaajay9376@gmail.com">
-    <img src="https://img.shields.io/badge/Email-gujjulaajay9376%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/EMAIL-gujjulaajay9376%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=070b14" alt="Email" />
   </a>
 </p>
 
 <br>
 
 <div align="center">
-  <hr style="border: 0; height: 1px; background: #e11d48;">
+  <hr style="border: 0; height: 1px; background: #FF2A54;">
   <p align="center">
-    <sub>🕷️ <i>"Anyone can wear the mask. It's how you write the code that sets you apart."</i> &bull; <b>Gujjula Ajay Kumar</b> &bull; Built with Spider-Sense ⚡</sub>
+    <sub>🕷️ <i>"Anyone can wear the mask. It's how you architect the system that changes the world."</i> &bull; <b>Gujjula Ajay Kumar</b> &bull; Amrita Vishwa Vidyapeetham ⚡</sub>
   </p>
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:e11d48,50:881337,100:0d1117&height=90&section=footer" alt="Footer"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:070b14,35:b91c1c,70:e11d48,100:00f2fe&height=95&section=footer" alt="Footer"/>
 </div>

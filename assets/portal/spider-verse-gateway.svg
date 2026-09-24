@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="portalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04060c" />
+      <stop offset="50%" stop-color="#090d1a" />
+      <stop offset="100%" stop-color="#04060c" />
+    </linearGradient>
+
+    <!-- Vortex Radial Gradients -->
+    <radialGradient id="riftCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.9" />
+      <stop offset="35%" stop-color="#FF2A54" stop-opacity="0.6" />
+      <stop offset="70%" stop-color="#8B5CF6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#04060c" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="portalGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes vortexSpin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes riftPulse {
+      0%, 100% { transform: scale(1); opacity: 0.85; }
+      50% { transform: scale(1.08); opacity: 1; filter: drop-shadow(0 0 18px #00F2FE); }
+    }
+    @keyframes glitchH {
+      0%, 92%, 100% { transform: translate(0, 0); }
+      93% { transform: translate(-3px, 1px); }
+      94% { transform: translate(3px, -1px); }
+      95% { transform: translate(0, 0); }
+    }
+    .swirl-core {
+      transform-origin: 500px 120px;
+      animation: vortexSpin 12s infinite linear;
+    }
+    .swirl-core-rev {
+      transform-origin: 500px 120px;
+      animation: vortexSpin 8s infinite linear reverse;
+    }
+    .portal-pulse {
+      transform-origin: 500px 120px;
+      animation: riftPulse 4s infinite ease-in-out;
+    }
+    .portal-glitch { animation: glitchH 6s infinite ease-in-out; }
+  </style>
+
+  <!-- Container Base -->
+  <rect x="0" y="0" width="1000" height="240" rx="12" fill="url(#portalBg)" stroke="#1e293b" stroke-width="1.3" />
+
+  <!-- Corner Brackets -->
+  <path d="M 16 16 L 28 16 M 16 16 L 16 28" stroke="#00F2FE" stroke-width="2" fill="none" />
+  <path d="M 984 16 L 972 16 M 984 16 L 984 28" stroke="#FF2A54" stroke-width="2" fill="none" />
+  <path d="M 16 224 L 28 224 M 16 224 L 16 212" stroke="#FF2A54" stroke-width="2" fill="none" />
+  <path d="M 984 224 L 972 224 M 984 224 L 984 212" stroke="#00F2FE" stroke-width="2" fill="none" />
+
+  <!-- Background Dimensional Rift Glow -->
+  <ellipse cx="500" cy="120" rx="360" ry="85" fill="url(#riftCore)" class="portal-pulse" />
+
+  <!-- Dimensional Web Strands Radiating Outward -->
+  <g class="swirl-core" stroke="#00F2FE" stroke-width="1" opacity="0.4" fill="none">
+    <ellipse cx="500" cy="120" rx="280" ry="60" stroke-dasharray="8,6" />
+    <ellipse cx="500" cy="120" rx="190" ry="40" stroke="#FF2A54" stroke-dasharray="5,8" />
+  </g>
+
+  <g class="swirl-core-rev" stroke="#FF2A54" stroke-width="1.2" opacity="0.35" fill="none">
+    <ellipse cx="500" cy="120" rx="230" ry="50" stroke-dasharray="10,12" />
+  </g>
+
+  <!-- Top Telemetry Tag -->
+  <g transform="translate(30, 26)" font-family="'SF Mono', 'Fira Code', monospace" font-size="10">
+    <text x="0" y="0" fill="#00F2FE" font-weight="700">DIMENSIONAL GATEWAY // EARTH-TRN688</text>
+    <text x="940" y="0" text-anchor="end" fill="#FF2A54">QUANTUM TETHER: STABLE</text>
+  </g>
+
+  <!-- Central Portal Gateway Button / Plaque -->
+  <g class="portal-glitch" transform="translate(200, 72)">
+    <rect width="600" height="96" rx="8" fill="#070c17" stroke="#00F2FE" stroke-width="1.5" filter="url(#portalGlow)" opacity="0.95" />
+    
+    <!-- Inner Accent Frame -->
+    <rect x="4" y="4" width="592" height="88" rx="6" fill="#090f1d" stroke="#1e293b" stroke-width="1" />
+    <line x1="4" y1="4" x2="60" y2="4" stroke="#FF2A54" stroke-width="2.5" />
+    <line x1="536" y1="92" x2="596" y2="92" stroke="#00F2FE" stroke-width="2.5" />
+
+    <!-- Button Text -->
+    <text x="300" y="42" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="21" font-weight="900" fill="#ffffff" letter-spacing="3px">
+      🌌 ENTER THE SPIDER-VERSE
+    </text>
+
+    <!-- Subtitle -->
+    <text x="300" y="65" text-anchor="middle" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#00F2FE" font-weight="700" letter-spacing="1.5px">
+      [ IMMERSIVE 3D WEBGL MULTIVERSE PORTFOLIO &bull; IN DEVELOPMENT ]
+    </text>
+
+    <text x="300" y="82" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10.5" fill="#94a3b8">
+      Featuring Three.js Spatial Audio &bull; Real-time 3D Cityscape &bull; Interactive Project Exploration
+    </text>
+  </g>
+
+  <!-- Bottom Coordinates -->
+  <text x="500" y="215" text-anchor="middle" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" fill="#64748b" letter-spacing="1px">
+    COORDINATES: LAT 10.9001° N &bull; LON 76.8997° E &bull; PROTOCOL: SPIDER-VERSE_V1
+  </text>
+</svg>
