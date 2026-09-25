@@ -1,40 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="100%" height="100%">
   <defs>
-    <linearGradient id="arsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="arsBg_MAIN" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#070a14" />
       <stop offset="100%" stop-color="#04060b" />
     </linearGradient>
-
-    <!-- Gauge Gradients -->
-    <linearGradient id="fluidCrimson" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="gauCrimson_MAIN" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#E11D48" />
       <stop offset="100%" stop-color="#FF2A54" />
     </linearGradient>
-    <linearGradient id="fluidCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="gauCyan_MAIN" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0284C7" />
       <stop offset="100%" stop-color="#00F2FE" />
     </linearGradient>
-    <linearGradient id="fluidGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="gauGreen_MAIN" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#059669" />
       <stop offset="100%" stop-color="#00ff88" />
     </linearGradient>
-
-    <filter id="gaugeGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
   </defs>
 
   <style>
-    @keyframes canisterPulse {
+    @keyframes ledPulse_ARS {
       0%, 100% { opacity: 0.9; }
-      50% { opacity: 0.5; }
+      50% { opacity: 0.4; }
     }
-    .led-flash { animation: canisterPulse 2s infinite ease-in-out; }
+    .led-ARS { animation: ledPulse_ARS 2s infinite ease-in-out; }
   </style>
 
-  <!-- Container Base -->
-  <rect x="0" y="0" width="1000" height="340" rx="12" fill="url(#arsBg)" stroke="#1a2538" stroke-width="1.3" />
+  <!-- Container -->
+  <rect x="0" y="0" width="1000" height="340" rx="12" fill="url(#arsBg_MAIN)" stroke="#1a2538" stroke-width="1.3" />
 
   <!-- Corner Brackets -->
   <path d="M 16 16 L 26 16 M 16 16 L 16 26" stroke="#FF2A54" stroke-width="2" fill="none" />
@@ -42,86 +35,66 @@
   <path d="M 16 324 L 26 324 M 16 324 L 16 314" stroke="#00F2FE" stroke-width="2" fill="none" />
   <path d="M 984 324 L 974 324 M 984 324 L 984 314" stroke="#FF2A54" stroke-width="2" fill="none" />
 
-  <!-- Top System Header -->
+  <!-- Header -->
   <g transform="translate(26, 26)" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5">
     <text x="0" y="0" fill="#FF2A54" font-weight="700">WEB-SHOOTER HUD // 5-STAGE FLUID ARSENAL</text>
     <text x="500" y="0" fill="#94a3b8">TENSILE CAPACITY: <tspan fill="#00ff88" font-weight="700">OPTIMAL</tspan></text>
     <text x="948" y="0" text-anchor="end" fill="#64748b">CARTRIDGE CHAMBER: LOCKED</text>
   </g>
-
   <line x1="26" y1="36" x2="974" y2="36" stroke="#1e293b" stroke-width="1" />
-
-  <!-- =============================================================== -->
-  <!-- 5 TACTICAL WEB FLUID CARTRIDGES                                 -->
-  <!-- =============================================================== -->
 
   <!-- Cartridge 1: Core Languages -->
   <g transform="translate(26, 55)">
     <rect width="948" height="48" rx="6" fill="#0b101d" stroke="#1e293b" stroke-width="1" />
-    <circle cx="18" cy="24" r="4" fill="#FF2A54" class="led-flash" />
+    <circle cx="18" cy="24" r="4" fill="#FF2A54" class="led-ARS" />
     <text x="32" y="20" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#FF2A54">CARTRIDGE 01 // CORE LANGUAGES</text>
-    <text x="32" y="38" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">
-      C &bull; Python &bull; Java &bull; JavaScript &bull; Bash Scripting &bull; Haskell &bull; SQL
-    </text>
-    <!-- Fluid Gauge Bar -->
+    <text x="32" y="38" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">C &#x2022; Python &#x2022; Java &#x2022; JavaScript &#x2022; Bash Scripting &#x2022; Haskell &#x2022; SQL</text>
     <rect x="740" y="16" width="140" height="14" rx="3" fill="#070b14" stroke="#1e293b" />
-    <rect x="742" y="18" width="136" height="10" rx="2" fill="url(#fluidCrimson)" filter="url(#gaugeGlow)" />
+    <rect x="742" y="18" width="136" height="10" rx="2" fill="url(#gauCrimson_MAIN)" />
     <text x="892" y="28" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" fill="#FF2A54" font-weight="700">100% PSI</text>
   </g>
 
-  <!-- Cartridge 2: AI & Computer Vision -->
+  <!-- Cartridge 2: AI & Vision -->
   <g transform="translate(26, 110)">
     <rect width="948" height="48" rx="6" fill="#0b101d" stroke="#1e293b" stroke-width="1" />
-    <circle cx="18" cy="24" r="4" fill="#00F2FE" class="led-flash" />
+    <circle cx="18" cy="24" r="4" fill="#00F2FE" class="led-ARS" />
     <text x="32" y="20" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#00F2FE">CARTRIDGE 02 // NEURAL &amp; COMPUTER VISION</text>
-    <text x="32" y="38" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">
-      PyTorch &bull; TensorFlow &bull; OpenCV &bull; Scikit-Learn &bull; Pandas &bull; NumPy
-    </text>
-    <!-- Fluid Gauge Bar -->
+    <text x="32" y="38" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">PyTorch &#x2022; TensorFlow &#x2022; OpenCV &#x2022; Scikit-Learn &#x2022; Pandas &#x2022; NumPy</text>
     <rect x="740" y="16" width="140" height="14" rx="3" fill="#070b14" stroke="#1e293b" />
-    <rect x="742" y="18" width="130" height="10" rx="2" fill="url(#fluidCyan)" filter="url(#gaugeGlow)" />
+    <rect x="742" y="18" width="130" height="10" rx="2" fill="url(#gauCyan_MAIN)" />
     <text x="892" y="28" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" fill="#00F2FE" font-weight="700">96% PSI</text>
   </g>
 
-  <!-- Cartridge 3: Web Engineering & APIs -->
+  <!-- Cartridge 3: Web & APIs -->
   <g transform="translate(26, 165)">
     <rect width="948" height="48" rx="6" fill="#0b101d" stroke="#1e293b" stroke-width="1" />
-    <circle cx="18" cy="24" r="4" fill="#FF2A54" class="led-flash" />
+    <circle cx="18" cy="24" r="4" fill="#FF2A54" class="led-ARS" />
     <text x="32" y="20" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#FF2A54">CARTRIDGE 03 // WEB ENGINES &amp; APIS</text>
-    <text x="32" y="38" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">
-      Node.js &bull; Express &bull; HTML5 &bull; CSS3 &bull; FastAPI &bull; Postman
-    </text>
-    <!-- Fluid Gauge Bar -->
+    <text x="32" y="38" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Node.js &#x2022; Express &#x2022; HTML5 &#x2022; CSS3 &#x2022; FastAPI &#x2022; Postman</text>
     <rect x="740" y="16" width="140" height="14" rx="3" fill="#070b14" stroke="#1e293b" />
-    <rect x="742" y="18" width="125" height="10" rx="2" fill="url(#fluidCrimson)" filter="url(#gaugeGlow)" />
+    <rect x="742" y="18" width="125" height="10" rx="2" fill="url(#gauCrimson_MAIN)" />
     <text x="892" y="28" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" fill="#FF2A54" font-weight="700">92% PSI</text>
   </g>
 
-  <!-- Cartridge 4: Databases & Knowledge Graphs -->
+  <!-- Cartridge 4: Databases -->
   <g transform="translate(26, 220)">
     <rect width="948" height="48" rx="6" fill="#0b101d" stroke="#1e293b" stroke-width="1" />
-    <circle cx="18" cy="24" r="4" fill="#00ff88" class="led-flash" />
+    <circle cx="18" cy="24" r="4" fill="#00ff88" class="led-ARS" />
     <text x="32" y="20" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#00ff88">CARTRIDGE 04 // DATA STORES &amp; GRAPH TOPOLOGIES</text>
-    <text x="32" y="38" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">
-      MySQL (Relational) &bull; Neo4j (Graph Database) &bull; MongoDB (Document Store)
-    </text>
-    <!-- Fluid Gauge Bar -->
+    <text x="32" y="38" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">MySQL (Relational) &#x2022; Neo4j (Graph Database) &#x2022; MongoDB (Document Store)</text>
     <rect x="740" y="16" width="140" height="14" rx="3" fill="#070b14" stroke="#1e293b" />
-    <rect x="742" y="18" width="120" height="10" rx="2" fill="url(#fluidGreen)" filter="url(#gaugeGlow)" />
+    <rect x="742" y="18" width="120" height="10" rx="2" fill="url(#gauGreen_MAIN)" />
     <text x="892" y="28" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" fill="#00ff88" font-weight="700">89% PSI</text>
   </g>
 
-  <!-- Cartridge 5: Developer Tools & Suit OS -->
+  <!-- Cartridge 5: Developer Tools -->
   <g transform="translate(26, 275)">
     <rect width="948" height="48" rx="6" fill="#0b101d" stroke="#1e293b" stroke-width="1" />
-    <circle cx="18" cy="24" r="4" fill="#00F2FE" class="led-flash" />
+    <circle cx="18" cy="24" r="4" fill="#00F2FE" class="led-ARS" />
     <text x="32" y="20" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#00F2FE">CARTRIDGE 05 // SUIT OS &amp; WORKSPACE TOOLS</text>
-    <text x="32" y="38" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">
-      Git &bull; GitHub &bull; Linux CLI &bull; VS Code &bull; Canva &bull; Jupyter
-    </text>
-    <!-- Fluid Gauge Bar -->
+    <text x="32" y="38" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Git &#x2022; GitHub &#x2022; Linux CLI &#x2022; VS Code &#x2022; Canva &#x2022; Jupyter</text>
     <rect x="740" y="16" width="140" height="14" rx="3" fill="#070b14" stroke="#1e293b" />
-    <rect x="742" y="18" width="138" height="10" rx="2" fill="url(#fluidCyan)" filter="url(#gaugeGlow)" />
+    <rect x="742" y="18" width="138" height="10" rx="2" fill="url(#gauCyan_MAIN)" />
     <text x="892" y="28" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" fill="#00F2FE" font-weight="700">99% PSI</text>
   </g>
 </svg>
