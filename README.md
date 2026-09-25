@@ -5,7 +5,7 @@
 <div align="center">
 
   <!-- MASTER HUD HERO -->
-  <img src="./assets/hud/hero-hud.svg" width="100%" alt="Spider-Lab HUD // Gujjula Ajay Kumar" />
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/hero-hud.svg" width="100%" alt="Spider-Lab HUD // Gujjula Ajay Kumar" />
 
   <br><br>
 
@@ -30,28 +30,30 @@
       <img src="https://img.shields.io/badge/GITHUB_NODE-ajay9376-00F2FE?style=for-the-badge&logo=github&logoColor=black&labelColor=070b14" alt="GitHub" />
     </a>
     &nbsp;
-    <img src="https://komarev.com/ghpvc/?username=ajay9376&color=ff2a54&style=for-the-badge&label=Spider-Sense+Hits&abbreviated=true" alt="Profile Views" />
+    <img src="https://img.shields.io/badge/SPIDER--SENSE-ACTIVE-FF2A54?style=for-the-badge&labelColor=070b14" alt="Spider-Sense Active" />
     &nbsp;
     <img src="https://img.shields.io/badge/SUIT_SYSTEM-ONLINE-00ff88?style=for-the-badge&labelColor=070b14" alt="Suit Online" />
   </p>
 
 </div>
 
-<p align="center">
-  <img src="./assets/web/web-divider-origin.svg" width="100%" alt="Web Connector" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/web/web-divider-origin.svg" width="100%" alt="Web Connector" />
+</div>
 
 <!-- ================================================================= -->
 <!-- 01: ORIGIN // THE PETER PARKER PROTOCOL                           -->
 <!-- ================================================================= -->
 
-<img src="./assets/hud/header-origin.svg" width="100%" alt="01 Origin Header" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/header-origin.svg" width="100%" alt="01 Origin Header" />
+</div>
 
 <br>
 
 <table width="100%">
 <tr>
-<td bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 22px 26px;">
+<td colspan="2" bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 20px 24px;">
 
 ### 🕷️ Origin Dossier // Developer Identity
 
@@ -59,72 +61,90 @@ I am a Computer Science &amp; Engineering student at **Amrita Vishwa Vidyapeetha
 
 Like Peter Parker in his lab, I believe engineering begins by peering beneath high-level abstractions — understanding how memory allocation, mathematical optimization, packet flows, and neural layers interact under pressure. My focus is engineering resilient, mathematically sound systems that detect anomalies and solve complex real-world challenges.
 
+</td>
+</tr>
+<tr>
+<!-- Left Column: Python HUD Cockpit -->
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 18px;">
+
 ```python
 # 🕸️ SUIT HUD // PROTOCOL: PETER_PARKER_V2
 class PeterParkerDeveloper:
     def __init__(self):
         self.codename = "Gujjula Ajay Kumar"
-        self.callsign = "Your Friendly Neighborhood Developer 🕷️"
-        self.base_station = "Amrita Vishwa Vidyapeetham 🏛️"
-        self.academic_track = "B.Tech Computer Science & Engineering (Class of 2028)"
-        self.spider_sense = "ACTIVE // Detecting anomalies, bad logic & synthetic media"
+        self.callsign = "Your Friendly Neighborhood Dev 🕷️"
+        self.base = "Amrita Vishwa Vidyapeetham 🏛️"
+        self.degree = "B.Tech CSE (Class of 2028)"
+        self.spider_sense = "ACTIVE // Detecting anomalies"
 
     def core_subsystems(self):
         return {
-            "ai_forensics": ["Deepfake Detection", "Multi-Signal Biometrics", "Computer Vision"],
-            "cyber_radar": ["Traffic Telemetry", "Anomaly Detection", "Threat Classification"],
-            "algorithmic_craft": ["Graph Theory", "Constraint Satisfaction", "DAA Optimization"],
-            "systems_stack": ["Python", "C", "Java", "Node.js", "MySQL", "Neo4j"]
+            "ai_forensics": ["TruthLens-AI", "Vision", "GANs"],
+            "cyber_radar": ["NetSentinel", "Traffic Telemetry"],
+            "algorithms": ["Graph Theory", "Backtracking", "DAA"],
+            "stack": ["Python", "C", "Java", "Node", "MySQL"]
         }
 
     def prime_directive(self):
-        return "With great compute power comes great architectural responsibility."
+        return "With great compute comes responsibility."
 ```
+
+</td>
+
+<!-- Right Column: Terminal Telemetry -->
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 18px;">
 
 ```bash
 ┌──(ajay㉿spider-suit-os)-[~/radar]
 └─$ spider-cli telemetry --verify
+
 [SYSTEM]       SPIDER-LAB OS v4.2 INITIALIZED
-[SPIDER-SENSE] Calibrated to anomalous telemetry & deepfake vectors
+[SPIDER-SENSE] Calibrated to anomalous signals
+[AI_CORE]      TruthLens-AI multi-signal detector ARMED
 [FIREWALL]     NetSentinel packet inspector ACTIVE
 [CSP_SOLVER]   Map Puzzle chromatic graph engine ONLINE
-[OBJECTIVE]    Architecting resilient AI systems & mastering core algorithms
+[METRICS]      60+ Commits • 6 Public Repos • 0 Fatal Errors
+[OBJECTIVE]    Architecting resilient, production AI systems
 ```
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <img src="./assets/web/web-divider-sense.svg" width="100%" alt="Web Connector" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/web/web-divider-sense.svg" width="100%" alt="Web Connector" />
+</div>
 
 <!-- ================================================================= -->
 <!-- 02: SPIDER-SENSE // THREAT & LEARNING RADAR                       -->
 <!-- ================================================================= -->
 
-<img src="./assets/hud/header-sense.svg" width="100%" alt="02 Spider-Sense Header" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/header-sense.svg" width="100%" alt="02 Spider-Sense Header" />
+</div>
 
 <br>
 
 <div align="center">
-  <img src="./assets/hud/spider-sense-radar.svg" width="100%" alt="Spider-Sense HUD Console" />
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/spider-sense-radar.svg" width="100%" alt="Spider-Sense HUD Console" />
 </div>
 
-<p align="center">
-  <img src="./assets/web/web-divider-arsenal.svg" width="100%" alt="Web Connector" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/web/web-divider-arsenal.svg" width="100%" alt="Web Connector" />
+</div>
 
 <!-- ================================================================= -->
 <!-- 03: WEB-SHOOTER ARSENAL // TECHNICAL WEAPONRY                    -->
 <!-- ================================================================= -->
 
-<img src="./assets/hud/header-arsenal.svg" width="100%" alt="03 Web-Shooter Arsenal Header" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/header-arsenal.svg" width="100%" alt="03 Web-Shooter Arsenal Header" />
+</div>
 
 <br>
 
 <div align="center">
-  <img src="./assets/hud/web-shooter-arsenal.svg" width="100%" alt="Web-Shooter HUD Arsenal" />
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/web-shooter-arsenal.svg" width="100%" alt="Web-Shooter HUD Arsenal" />
 </div>
 
 <br>
@@ -132,7 +152,7 @@ class PeterParkerDeveloper:
 <!-- INTERACTIVE SKILL ICONS MATRIX -->
 <table width="100%">
 <tr>
-<td bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 18px 24px;">
+<td bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 22px 24px;">
 
 <div align="center">
 
@@ -167,25 +187,27 @@ class PeterParkerDeveloper:
 </tr>
 </table>
 
-<p align="center">
-  <img src="./assets/web/web-divider-missions.svg" width="100%" alt="Web Connector" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/web/web-divider-missions.svg" width="100%" alt="Web Connector" />
+</div>
 
 <!-- ================================================================= -->
 <!-- 04: ACTIVE MISSIONS // THE SPIDER-LAB                             -->
 <!-- ================================================================= -->
 
-<img src="./assets/hud/header-missions.svg" width="100%" alt="04 Active Missions Header" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/header-missions.svg" width="100%" alt="04 Active Missions Header" />
+</div>
 
 <br>
 
-<!-- MISSION GRID -->
+<!-- MISSION GRID (3 BALANCED ROWS OF 2 EQUAL-WIDTH CARDS) -->
 <table width="100%">
 <tr>
 <!-- MISSION 001: TRUTHLENS-AI -->
-<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #FF2A54; border-radius: 10px; padding: 16px;">
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #FF2A54; border-radius: 10px; padding: 18px;">
 
-<img src="./assets/missions/mission-truthlens.svg" width="100%" alt="Mission 001 TruthLens" />
+<img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/missions/mission-truthlens.svg" width="100%" alt="Mission 001 TruthLens" />
 
 <br><br>
 
@@ -209,9 +231,9 @@ Cross-examines 4 distinct visual &amp; biometric signal vectors:
 </td>
 
 <!-- MISSION 002: NETSENTINEL -->
-<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #00F2FE; border-radius: 10px; padding: 16px;">
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #00F2FE; border-radius: 10px; padding: 18px;">
 
-<img src="./assets/missions/mission-netsentinel.svg" width="100%" alt="Mission 002 NetSentinel" />
+<img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/missions/mission-netsentinel.svg" width="100%" alt="Mission 002 NetSentinel" />
 
 <br><br>
 
@@ -237,9 +259,9 @@ An intelligent cybersecurity watchdog providing real-time telemetry:
 
 <tr>
 <!-- MISSION 003: MAP PUZZLE DAA -->
-<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #00F2FE; border-radius: 10px; padding: 16px;">
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #00F2FE; border-radius: 10px; padding: 18px;">
 
-<img src="./assets/missions/mission-mappuzzle.svg" width="100%" alt="Mission 003 Map Puzzle" />
+<img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/missions/mission-mappuzzle.svg" width="100%" alt="Mission 003 Map Puzzle" />
 
 <br><br>
 
@@ -263,9 +285,9 @@ An algorithmic graph coloring engine designed for minimum-chromatic partitioning
 </td>
 
 <!-- MISSION 004: ML-CAPSTONE -->
-<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #FF2A54; border-radius: 10px; padding: 16px;">
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #FF2A54; border-radius: 10px; padding: 18px;">
 
-<img src="./assets/missions/mission-mlcapstone.svg" width="100%" alt="Mission 004 ML Capstone" />
+<img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/missions/mission-mlcapstone.svg" width="100%" alt="Mission 004 ML Capstone" />
 
 <br><br>
 
@@ -291,49 +313,87 @@ Comprehensive machine learning experimentation framework:
 
 <tr>
 <!-- MISSION 005: CGPA CALCULATOR -->
-<td colspan="2" valign="top" bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 16px;">
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 18px;">
 
-<img src="./assets/missions/mission-cgpa.svg" width="100%" alt="Mission 005 CGPA Calculator" />
+<img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/missions/mission-cgpa.svg" width="100%" alt="Mission 005 CGPA Calculator" />
 
 <br><br>
 
 > **Tactical Objective:** Client-side academic performance metric evaluator for engineering cohorts.
 
-An interactive browser utility allowing university students to input course credits, letter grades, and semester weights to compute cumulative grade point averages (CGPA) with zero latency.
+An interactive browser utility allowing university students to input course credits, letter grades, and semester weights to compute cumulative grade point averages (CGPA) with zero latency:
+- **Weighted GPA Evaluation:** Real-time credit multiplication &amp; grade-point calculations.
+- **Zero-Dependency DOM:** Pure vanilla JavaScript rendering with zero client latency.
+- **Responsive Layout:** Engineered for fast calculations across desktop and mobile screens.
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" height="34" alt="CGPA Calculator Stack" />
+</p>
 
 - **Status:** `COMPLETED // SYSTEM UTILITY`
-- **Architecture:** `HTML5` &bull; `CSS3` &bull; `JavaScript` &bull; `Responsive DOM Manipulation`
+- **Architecture:** `HTML5` &bull; `CSS3` &bull; `JavaScript` &bull; `Responsive DOM`
 
 <p align="right"><a href="https://github.com/ajay9376/cgpa_calculator"><b>🎓 Access Utility &rarr;</b></a></p>
+
+</td>
+
+<!-- MISSION 006: SPIDER-LAB CI/CD TELEMETRY -->
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #00F2FE; border-radius: 10px; padding: 18px;">
+
+<img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/missions/mission-sysdiag.svg" width="100%" alt="Mission 006 CI/CD Telemetry" />
+
+<br><br>
+
+> **Tactical Objective:** Automated GitHub Actions pipeline and real-time environment maintenance.
+
+Continuous integration and background automation infrastructure powering the Spider-Lab:
+- **Contribution Snake Animation:** Automated cron action crawling contribution matrices.
+- **Telemetry Health Checks:** Routine verification of repository assets &amp; dependencies.
+- **Deterministic Deployment:** Clean version control workflow for rapid system releases.
+
+<p>
+  <img src="https://skillicons.dev/icons?i=githubactions,git,linux,bash&theme=dark" height="34" alt="DevOps Stack" />
+</p>
+
+- **Status:** `AUTOMATED // SCHEDULED RUNTIME`
+- **Architecture:** `GitHub Actions` &bull; `YAML` &bull; `Linux CI` &bull; `SVG Automation`
+
+<p align="right"><a href="https://github.com/ajay9376/ajay9376/blob/main/.github/workflows/snake.yml"><b>⚡ Access Workflow &rarr;</b></a></p>
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <img src="./assets/web/web-divider-telemetry.svg" width="100%" alt="Web Connector" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/web/web-divider-telemetry.svg" width="100%" alt="Web Connector" />
+</div>
 
 <!-- ================================================================= -->
 <!-- 05: THE WEB // GITHUB TELEMETRY & CONTRIBUTION RADAR              -->
 <!-- ================================================================= -->
 
-<img src="./assets/hud/header-telemetry.svg" width="100%" alt="05 Telemetry Header" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/header-telemetry.svg" width="100%" alt="05 Telemetry Header" />
+</div>
 
 <br>
 
 <div align="center">
 
-  <table border="0">
+  <!-- UNTRUNCATED DEVELOPER TELEMETRY CARD (FULL NAME: GUJJULA AJAY KUMAR) -->
+  <a href="https://github.com/ajay9376">
+    <img
+      src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/github-telemetry-card.svg"
+      width="100%"
+      alt="Gujjula Ajay Kumar - GitHub Telemetry Card"
+      style="max-width: 700px;"
+    />
+  </a>
+
+  <br><br>
+
+  <table border="0" align="center">
     <tr>
-      <td align="center" valign="middle">
-        <a href="https://github.com/ajay9376">
-          <img
-            src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ajay9376&theme=radical"
-            alt="GitHub Profile Overview"
-          />
-        </a>
-      </td>
       <td align="center" valign="middle">
         <a href="https://github.com/ajay9376">
           <img
@@ -342,10 +402,7 @@ An interactive browser utility allowing university students to input course cred
           />
         </a>
       </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <br>
+      <td align="center" valign="middle">
         <a href="https://github.com/ajay9376">
           <img
             src="https://streak-stats.demolab.com/?user=ajay9376&theme=radical&hide_border=true&background=070b14&ring=FF2A54&fire=FF2A54&currStreakLabel=00F2FE"
@@ -358,41 +415,57 @@ An interactive browser utility allowing university students to input course cred
 
 </div>
 
-<p align="center">
-  <img src="./assets/web/web-divider-missions.svg" width="100%" alt="Web Connector" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/web/web-divider-missions.svg" width="100%" alt="Web Connector" />
+</div>
 
 <!-- ================================================================= -->
 <!-- 06: SPIDER-ACADEMY // FORMAL EDUCATION                            -->
 <!-- ================================================================= -->
 
-<img src="./assets/hud/header-academy.svg" width="100%" alt="06 Spider-Academy Header" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/header-academy.svg" width="100%" alt="06 Spider-Academy Header" />
+</div>
 
 <br>
 
 <table width="100%">
 <tr>
-<td bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 22px 28px;">
+<!-- Left: Academic Credential -->
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 22px 26px;">
 
 ### 🏛️ Amrita Vishwa Vidyapeetham
-**Bachelor of Technology (B.Tech) — Computer Science &amp; Engineering (2024 – 2028)**
+**Bachelor of Technology (B.Tech) — Computer Science &amp; Engineering**  
+*Graduation Cohort: 2024 – 2028 &bull; 2nd Year Active Standing*
 
-- **Core Academic Rigor:** Data Structures &amp; Algorithms, Object-Oriented Programming (Java), Operating Systems &amp; Concurrency, Database Management Systems (SQL &amp; Neo4j), Computer Networks, Design &amp; Analysis of Algorithms (DAA), Artificial Intelligence.
-- **Engineering Trajectory:** Deepening mastery in computer vision forensics, anomaly detection architectures, low-level concurrency, and graph constraint optimization.
+- **Academic Trajectory:** Engineering foundational systems, algorithmic modeling, and high-assurance software architectures.
+- **Practical Focus:** Bridging theoretical complexity analysis with scalable artificial intelligence pipelines.
+
+</td>
+
+<!-- Right: Coursework & Rigor -->
+<td width="50%" valign="top" bgcolor="#070b14" style="border: 1px solid #1e293b; border-radius: 10px; padding: 22px 26px;">
+
+### 📚 Core Academic Rigor &bull; Disciplines
+- **Foundations:** Data Structures &amp; Algorithms (DSA), Design &amp; Analysis of Algorithms (DAA).
+- **Systems &amp; Architecture:** Operating Systems, Concurrency, Computer Networks, Systems Programming in C.
+- **Data &amp; Intelligence:** Database Management Systems (SQL &amp; Neo4j), Machine Learning, Artificial Intelligence.
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <img src="./assets/web/web-divider-sense.svg" width="100%" alt="Web Connector" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/web/web-divider-sense.svg" width="100%" alt="Web Connector" />
+</div>
 
 <!-- ================================================================= -->
 <!-- 07: DEVELOPER CREED // SYSTEM DIRECTIVES                          -->
 <!-- ================================================================= -->
 
-<img src="./assets/hud/header-creed.svg" width="100%" alt="07 Developer Creed Header" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/header-creed.svg" width="100%" alt="07 Developer Creed Header" />
+</div>
 
 <br>
 
@@ -425,62 +498,68 @@ An interactive browser utility allowing university students to input course cred
 </tr>
 </table>
 
-<p align="center">
-  <img src="./assets/web/web-divider-portal.svg" width="100%" alt="Web Connector" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/web/web-divider-portal.svg" width="100%" alt="Web Connector" />
+</div>
 
 <!-- ================================================================= -->
 <!-- 08: ENTER THE SPIDER-VERSE // DIMENSIONAL GATEWAY                 -->
 <!-- ================================================================= -->
 
-<img src="./assets/hud/header-portal.svg" width="100%" alt="08 Spider-Verse Header" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/header-portal.svg" width="100%" alt="08 Spider-Verse Header" />
+</div>
 
 <br>
 
 <div align="center">
   <a href="https://github.com/ajay9376">
-    <img src="./assets/portal/spider-verse-gateway.svg" width="100%" alt="Enter The Spider-Verse Gateway" />
+    <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/portal/spider-verse-gateway.svg" width="100%" alt="Enter The Spider-Verse Gateway" />
   </a>
 </div>
 
-<p align="center">
-  <img src="./assets/web/web-divider-origin.svg" width="100%" alt="Web Connector" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/web/web-divider-origin.svg" width="100%" alt="Web Connector" />
+</div>
 
 <!-- ================================================================= -->
 <!-- 09: TRANSMISSION // SECURE CHANNELS                               -->
 <!-- ================================================================= -->
 
-<img src="./assets/hud/header-transmission.svg" width="100%" alt="09 Transmission Header" />
-
-<br>
-
-<p align="center">
-  Open to collaborative AI research, deepfake forensics, systems engineering, and open-source innovations.
-  <br>
-  <b>Spider-Lab frequencies are open. Send an encrypted ping:</b>
-</p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/gujjula-ajay-kumar-29a6b3325/" target="_blank">
-    <img src="https://img.shields.io/badge/LINKEDIN-Ajay%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=070b14" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/ajay9376" target="_blank">
-    <img src="https://img.shields.io/badge/GITHUB-ajay9376-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=070b14" alt="GitHub" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:gujjulaajay9376@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL-gujjulaajay9376%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=070b14" alt="Email" />
-  </a>
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ajay9376/ajay9376/main/assets/hud/header-transmission.svg" width="100%" alt="09 Transmission Header" />
+</div>
 
 <br>
 
 <div align="center">
+
+  <p align="center">
+    Open to collaborative AI research, deepfake forensics, systems engineering, and open-source innovations.
+    <br>
+    <b>Spider-Lab frequencies are open. Send an encrypted ping:</b>
+  </p>
+
+  <p align="center">
+    <a href="https://linkedin.com/in/gujjula-ajay-kumar-29a6b3325/" target="_blank">
+      <img src="https://img.shields.io/badge/LINKEDIN-Ajay%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=070b14" alt="LinkedIn" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/ajay9376" target="_blank">
+      <img src="https://img.shields.io/badge/GITHUB-ajay9376-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=070b14" alt="GitHub" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="mailto:gujjulaajay9376@gmail.com">
+      <img src="https://img.shields.io/badge/EMAIL-gujjulaajay9376%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=070b14" alt="Email" />
+    </a>
+  </p>
+
+  <br>
+
   <hr style="border: 0; height: 1px; background: #FF2A54;">
   <p align="center">
     <sub>🕷️ <i>"Anyone can wear the mask. It's how you architect the system that changes the world."</i> &bull; <b>Gujjula Ajay Kumar</b> &bull; Amrita Vishwa Vidyapeetham ⚡</sub>
   </p>
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:070b14,35:b91c1c,70:e11d48,100:00f2fe&height=95&section=footer" alt="Footer"/>
+
 </div>
